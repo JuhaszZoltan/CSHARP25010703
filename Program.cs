@@ -36,7 +36,6 @@ Console.WriteLine("6. feladat");
 var hln = orszagok.OrderByDescending(o => o.Nepesseg).ToArray()[2];
 Console.WriteLine($"A 3. legnépesebb ország {hln.Orszagnev}, a lakossága {hln.Nepesseg} fő");
 
-
 Console.WriteLine("7. feladat");
 Console.WriteLine("A következő országok lakossákának több, mint 30%-a fővárosban lakik");
 var koncentraltak = orszagok.Where(o => o.FVbenKoncentralt);
